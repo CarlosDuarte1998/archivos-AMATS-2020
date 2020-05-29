@@ -8,9 +8,9 @@
 	<div class="login-box">
 		<center><img class="logo" src="fotos/logo.jpg">
 			<h3>Inicio de sesion</h3></center><br>
-			<form method="post" action="../php/login.php">
+			<form method="post" action="proceso.php">
 				<!--username-->
-				<label>Username:&nbsp;&nbsp;&nbsp;</label><input type="text" name="username" placeholder="ingrese username">
+				<label>Username:&nbsp;&nbsp;&nbsp;</label><input type="text" name="usuario" placeholder="ingrese username">
 				<!--contraseña-->
 				<label>Contraseña:&nbsp;</label> <input type="password" name="contrasena" placeholder="ingrese contraseña"><br>
 				<center><button type="submit" name="ingresar" value="ingresar">Ingresar</button></center>

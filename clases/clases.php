@@ -64,7 +64,7 @@ $this->conexion=new mysqli($this->servidor, $this->usuario, $this->contrasena, "
    
     //funcion para buscar con parametros de sql
   
-    public function busquedaparametro($datos){
+    public function busquedalibre($datos){
         $resul = $this->conexion->query($datos) or die($this->conexion->error);
             return $resul->fetch_all(MYSQLI_ASSOC);
         return false;  
